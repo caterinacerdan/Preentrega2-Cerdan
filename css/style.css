@@ -1,9 +1,11 @@
 ul{list-style-type: none;}
 a{text-decoration: none;}
+.productos{padding-top: 20px;}
 a:hover{
 color: rgb(219, 143, 216);
 font-size: 20px;
-transition: 1s all;}
+transition: 1s all;
+}
 /*DESKTOP*/
 @media (min-width: 1024px){
 .gridIndex{
@@ -41,6 +43,7 @@ h1{color: #df97cf;
     display: flex;
     justify-content: center;
     font-size: 50px;
+    
 }
 footer{display: flex;
     justify-content: space-between;}
