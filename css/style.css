@@ -1,0 +1,66 @@
+ul{list-style-type: none;}
+a{text-decoration: none;}
+/*DESKTOP*/
+@media (min-width: 1024px){
+.gridIndex{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+header{grid-area: header}
+main{grid-area: main;}
+footer{grid-area: footer;}
+header, ul {display: flex;}
+.GridInicio{
+    display: grid;
+    grid-template-areas: 
+    "pIzq pDer"
+}
+.pIzq{grid-area: pIzq;
+margin-top: 20px;}
+.pIzq{margin-right: 60px;}
+.pDer {grid-area: pDer; 
+padding-top: 36px;}
+/*BOX MODELING*/
+header{justify-content: space-between;
+    background-color: rgba(249,217,211,255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;}
+li{padding: 30px;}
+body{margin: 0px;}
+h1{color: #df97cf;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+footer{display: flex;
+    justify-content: space-between;}
+
+/*box modeling*/
+.parrafos{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(32, 31, 31); background-color: beige;   
+}
+}
+/*GRIDS II*/
+/*DESKTOP
+@media (min-width: 1024px){}
+/*TABLET*/
+@media (min-width: 769px) and (max-width: 1023px){}
+/*PHONE*/
+@media (max-width:768px){
+    main{display: flex;
+    flex-direction: column;}
+    ul{display: flex;}
+    header,footer{align-items: center;
+        display: flex;
+        flex-direction: column;
+    justify-content: center;}
+    a{padding: 5px;}
+
+}
