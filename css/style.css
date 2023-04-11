@@ -1,5 +1,9 @@
 ul{list-style-type: none;}
 a{text-decoration: none;}
+a:hover{
+color: rgb(219, 143, 216);
+font-size: 20px;
+transition: 1s all;}
 /*DESKTOP*/
 @media (min-width: 1024px){
 .gridIndex{
@@ -62,5 +66,4 @@ footer{display: flex;
         flex-direction: column;
     justify-content: center;}
     a{padding: 5px;}
-
 }
